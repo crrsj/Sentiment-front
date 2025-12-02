@@ -1,0 +1,13 @@
+/* Adiciona alguma animação ou estilo customizado */
+body {
+    background-image: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
